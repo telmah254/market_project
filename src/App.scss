@@ -1,0 +1,60 @@
+body {
+    height: 100%;
+    width: 100%;
+    background: rgb(0, 0, 0);
+}
+
+
+
+
+
+.tarkov-market-container {
+ 
+
+    .tarkov-item {
+        position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1px;
+    padding: 0.5em;
+    text-align: center;
+    background: hsla(0,0%,100%,.05);
+    width: 100%;
+
+        img {
+            margin: 1px;
+        }
+
+        span {
+            color: #fff;
+        }
+    }
+}
+.div {
+    display:block;
+}
+header {
+    color: #9a8866;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 0 20px;
+    padding: 2px 0;
+    border-bottom: 1px solid #333;
+    border-top: 1px solid #333;
+
+    .title{
+         font-size: 1.8rem;
+         line-height: 1.8rem;
+         font-weight: 700;
+    }
+    .desc {
+        color: #4d3d20;
+    }
+}
+
+.page-content {
+    color:#9a8866;
+}
